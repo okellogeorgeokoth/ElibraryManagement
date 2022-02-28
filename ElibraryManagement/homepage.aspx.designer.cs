@@ -10,7 +10,7 @@
 
 namespace ElibraryManagement
 {
-    public partial class WebForm1
+    public partial class homepages
     {
     }
 }
