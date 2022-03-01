@@ -4,7 +4,7 @@
 
 <html>
 <head runat="server">
-    <title></title>
+    <title>Elibrary Management System</title>
     <%--bootstrap css--%>
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <%--datatable css--%>
@@ -19,7 +19,6 @@
     <script src="bootstrap/js/popper.min.js"></script>
     <%--bootstrap js--%>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
@@ -72,7 +71,6 @@
              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
     </asp:ContentPlaceHolder>
         </div>
-        <!--Mani Content Placeholder-->
         <!--footer-->
         <footer>
             <div id="footer1" class="container-fluid">
