@@ -26,7 +26,7 @@
                         <div class="col">
                             <label>Admin ID</label>
                             <div class="form-group">
-                            <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server" placeholder="Member ID"></asp:TextBox>
+                            <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server" placeholder="Admin ID"></asp:TextBox>
                         </div>
                              <label>Password</label>
                             <div class="form-group">

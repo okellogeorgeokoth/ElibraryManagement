@@ -21,13 +21,13 @@
                     <p class="text-justify">Study at your own pace with a convenient 24/7 course. You’ll have full access to the course for 6 months - more than enough time to prepare for the exam</p></center>
             </div>
                  <div class="col-md-4">
-                    <center> <img src="imgs/clay-banks-GX8KBbVmC6c-unsplash%20(1).jpg" width="250px" />
+                    <center> <img src="imgs/clay-banks-GX8KBbVmC6c-unsplash%20(1).jpg" width="250" />
                     <h4>Digital Book Inventory</h4>
                           <p class="text-justify">Prepare yourself for the GRE with over 8 hours of animated video lessons. With an average score increase of 5 points (math & verbal), our course is a real no-brainer.</p>
                     </center>
             </div>
                  <div class="col-md-4">
-                     <center> <img src="imgs/john-mark-smith-P6uqpNyXcI4-unsplash.jpg" width="250px"/>
+                     <center> <img src="imgs/john-mark-smith-P6uqpNyXcI4-unsplash.jpg" width="250"/>
                     <h4>Visit Us</h4>
                        <p class="text-justify">Over 10 hours of animated video lessons and 500+ practice problems to prepare you for the ACT. Study with our engaging videos that walk you through concepts and test-taking strategies for all sections of the ACT.</p>
                     </center>
@@ -36,7 +36,7 @@
         </div>
     </section>
      <section>
-         <img src="imgs/daniele-franchi-GbAEJUJKJ88-unsplash.jpg" width="100%" height="500px"/>
+         <img src="imgs/daniele-franchi-GbAEJUJKJ88-unsplash.jpg" width="100%" height="500"/>
         
     </section>
     <section>
