@@ -45,25 +45,15 @@
                              <div class="col-md-4">
                             <asp:Button ID="Button3" class="btn btn-lg btn-block btn-danger" runat="server" Text="Delete" />
                                  </div>
-                           </div>              
+                           </div>   <br />           
                          <a href="homepage.aspx"><img src="imgs/backtohome.png" width="40" height="30" /></a>Back to Home<br><br>
                          
                  </div>
                  
-               
-                             <div class="col-md-6">
-                             <div class="col">
-                            <center>
-                                <img src="imgs/image.jpg" width="200" height="100"/><center>
-                                           </div>
-      
+                             <div class="col-md-6"> 
                                  <div class="col">
-                             <center> <h4>Your Issued Books</h4></center>
-                                   </div>
-                                      
-                             <div class="col">
-                         <center> <h5><span>Account Status.<asp:Label ID="Label2" class="badge bg-info text-dark" runat="server" Text="Active"></asp:Label></span></h5></center>
-                         </div>                     
+                             <center> <h4>Author List</h4></center>
+                                   </div>            
                             <div class="col">  
                            <asp:GridView ID="GridView2"  class="table table-striped table-bordered" runat="server"></asp:GridView>
                                  </div>   
