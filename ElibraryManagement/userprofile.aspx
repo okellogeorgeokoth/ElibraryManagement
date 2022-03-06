@@ -2,10 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <div class="container-fluid">
+    <div class="container">
              <div class="row">
                      <div class="col-md-5">
-                         <div class="row">
+                     <div class="row">
                      <div class="col">
                             <center> <img src="imgs/user.png" width="100" height="200"/><center>
                         </div>
@@ -139,28 +139,28 @@
                                </div>
                     <a href="homepage.aspx"><img src="imgs/backtohome.png" width="40" height="30" /></a>Back to Home<br><br>
             </div>
-                  <div class="col-">
-                         <div class="row">
-                     <div class="col-md-5">
-                         <div class="row">
-                     <div class="col">
-                            <center> <img src="imgs/user.png" width="100" height="200"/><center>
-                        </div>
-                         </div>
-                          <div class="row">
-                     <div class="col">
-                             <center> <h3>Your Profile</h3></center>
-                        </div>
-                         </div>
-                          <div class="row">
-                     <div class="col">
-                         <center> <h3><span>Your Issued Books<asp:Label ID="Label2" class="badge bg-info text-dark" runat="server" Text="Info about Books due date"></asp:Label></span></h3></center>
-                        </div>
-                         </div>
-                     </div>
-
-                             </div>
-                      </div>
-            </div>  
-          </div> 
-</asp:Content>
+                          
+                 
+               
+                             <div class="col-md-7">
+                                                                   <div class="col">
+                            <center>
+                                <img src="imgs/image.jpg" width="200" height="100"/><center>
+                                           </div>
+      
+                                 <div class="col">
+                             <center> <h3>Your Issued Books</h3></center>
+                                   </div>
+                                      
+                             <div class="col">
+                         <center> <h3><span>Account Status.<asp:Label ID="Label2" class="badge bg-info text-dark" runat="server" Text="Active"></asp:Label></span></h3></center>
+                         </div>                     
+                            <div class="col">  
+                           <asp:GridView ID="GridView2"  class="table table-striped table-bordered" runat="server"></asp:GridView>
+                                 </div>   
+                 
+             </div>   
+               </div>
+                   </div>       
+                      
+        </asp:Content>

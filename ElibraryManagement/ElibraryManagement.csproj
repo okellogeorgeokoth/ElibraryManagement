@@ -68,7 +68,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="aboutus.aspx" />
+    <Content Include="adminauthormanagement.aspx" />
     <Content Include="adminlogin.aspx" />
+    <Content Include="adminpublishermanagement.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
     <Content Include="bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="bootstrap\js\bootstrap.min.js" />
@@ -1865,11 +1867,13 @@
     <Content Include="imgs\admin-login-portal-500x500.png" />
     <Content Include="imgs\backtohome.png" />
     <Content Include="imgs\daniele-franchi-GbAEJUJKJ88-unsplash.jpg" />
+    <Content Include="imgs\download.jpg" />
     <Content Include="imgs\home.jpg" />
     <Content Include="imgs\ben-white-4K2lIP0zc_k-unsplash.jpg" />
     <Content Include="imgs\clay-banks-GX8KBbVmC6c-unsplash %281%29.jpg" />
     <Content Include="imgs\32.jpg" />
     <Content Include="imgs\image.jpg" />
+    <Content Include="imgs\images.jpg" />
     <Content Include="imgs\john-mark-smith-P6uqpNyXcI4-unsplash.jpg" />
     <Content Include="imgs\Search Books.jpg" />
     <Content Include="imgs\Sign Up.jpg" />
@@ -1892,12 +1896,26 @@
     <Compile Include="aboutus.aspx.designer.cs">
       <DependentUpon>aboutus.aspx</DependentUpon>
     </Compile>
+    <Compile Include="adminauthormanagement.aspx.cs">
+      <DependentUpon>adminauthormanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminauthormanagement.aspx.designer.cs">
+      <DependentUpon>adminauthormanagement.aspx</DependentUpon>
+    </Compile>
     <Compile Include="adminlogin.aspx.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="adminlogin.aspx.designer.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminpublishermanagement.aspx.cs">
+      <DependentUpon>adminpublishermanagement.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminpublishermanagement.aspx.designer.cs">
+      <DependentUpon>adminpublishermanagement.aspx</DependentUpon>
     </Compile>
     <Compile Include="homepage.aspx.cs">
       <DependentUpon>homepage.aspx</DependentUpon>
