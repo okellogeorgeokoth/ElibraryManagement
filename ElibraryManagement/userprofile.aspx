@@ -1,24 +1,26 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="usersignup.aspx.cs" Inherits="ElibraryManagement.usersignup" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site1.Master" AutoEventWireup="true" CodeBehind="userprofile.aspx.cs" Inherits="ElibraryManagement.userprofile" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div class="container">
-                <div class="row">
+    <div class="container-fluid">
+             <div class="row">
+                     <div class="col-md-5">
+                         <div class="row">
                      <div class="col">
                             <center> <img src="imgs/user.png" width="100" height="200"/><center>
                         </div>
                          </div>
-                        <div class="row">
-                         <div class="col">
-                           <center> <h3>Member Sign Up</h3></center>
+                          <div class="row">
+                     <div class="col">
+                             <center> <h3>Your Profile</h3></center>
                         </div>
                          </div>
                           <div class="row">
-                            <div class="col">
-                           <hr>
+                     <div class="col">
+                         <center> <h3><span>Account Status.<asp:Label ID="Label1" class="badge bg-info text-dark" runat="server" Text="Active"></asp:Label></span></h3></center>
                         </div>
                          </div>
-                         <div class="row">
+                           <div class="row">
                              <div class="col-md-6">
                             <label>Full Name</label><hr>
                                 <div class="form-group">
@@ -105,16 +107,21 @@
                         </div>
                          </div>
                           <div class="row">
-                             <div class="col-md-6">
+                             <div class="col">
                             <label>User Id</label><hr>
                                 <div class="form-group">
                                     <asp:TextBox ID="TextBox8" Class="form-control" runat="server" placeholder="User Id"></asp:TextBox>
                         </div>
                                </div>
-                             <div class="col-md-6">
-                          <label>Password</label><hr>
+                             <div class="col">
+                          <label>Old Password</label><hr>
                             <div class="form-group">
-                                <asp:TextBox ID="TextBox9" Class="form-control" runat="server" placeholder="Password" TextMode="Password"></asp:TextBox>
+                                <asp:TextBox ID="TextBox9" Class="form-control" runat="server" placeholder="Old Password" TextMode="Password"></asp:TextBox>
+                        </div> </div>
+                                  <div class="col">
+                          <label>New Password</label><hr>
+                            <div class="form-group">
+                                <asp:TextBox ID="TextBox10" Class="form-control" runat="server" placeholder="New Password" TextMode="Password"></asp:TextBox>
                         </div>
                        </div>
                          </div>
@@ -127,9 +134,33 @@
 
                             <div class="form-group">
                                   <div class="d-grid gap-2">
-                                      <a href="usersignup.aspx" class="btn btn-primary"><input  id="Button2" type="button" class="btn btn-primary"  value="Sign up" /></a> 
+                                   <center> <a href="userprofile.aspx"><input  id="Button2" class="btn btn-primary" value="Update" /></a>  </center>   
                                 </div>
                                </div>
                     <a href="homepage.aspx"><img src="imgs/backtohome.png" width="40" height="30" /></a>Back to Home<br><br>
             </div>
+                  <div class="col-">
+                         <div class="row">
+                     <div class="col-md-5">
+                         <div class="row">
+                     <div class="col">
+                            <center> <img src="imgs/user.png" width="100" height="200"/><center>
+                        </div>
+                         </div>
+                          <div class="row">
+                     <div class="col">
+                             <center> <h3>Your Profile</h3></center>
+                        </div>
+                         </div>
+                          <div class="row">
+                     <div class="col">
+                         <center> <h3><span>Your Issued Books<asp:Label ID="Label2" class="badge bg-info text-dark" runat="server" Text="Info about Books due date"></asp:Label></span></h3></center>
+                        </div>
+                         </div>
+                     </div>
+
+                             </div>
+                      </div>
+            </div>  
+          </div> 
 </asp:Content>

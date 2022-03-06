@@ -50,7 +50,7 @@
                          
                             <div class="form-group">
                                   <div class="d-grid gap-2">
-                                      <a href="usersignup.aspx" class="btn btn-primary"><input  id="Button2" type="button" class="btn btn-primary" type="button" value="Sign up" /></a> 
+                                      <a href="usersignup.aspx" class="btn btn-primary"><input  id="Button2" type="button" class="btn btn-primary"  value="Sign up" /></a> 
                                 </div>
                                     </div>
                             </div>
