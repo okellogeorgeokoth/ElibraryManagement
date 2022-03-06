@@ -21,8 +21,8 @@
                              <div class="col-md-4">
                             <label>Author ID</label><hr>
                                 <div class="form-group">
-                                     <div class="form-group">
-                            <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server" placeholder="ID"></asp:TextBox><br />
+                                     <div class="input-group">
+                            <asp:TextBox ID="TextBox1" CssClass="form-control" runat="server" placeholder="ID"></asp:TextBox>
                             <asp:Button ID="Go" class="btn btn-primary" runat="server" Text="Go" />
                                   </div>
                                 </div>
