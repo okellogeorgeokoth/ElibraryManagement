@@ -9,7 +9,7 @@
                     <div class="card-body">
                         <div class="row">
                         <div class="col">
-                            <center> <img src="imgs/user.png" height="200"/><center>
+                            <center><img src="imgs/reader.jpg" height="200"/><center>
                         </div>
                          </div>
                         <div class="row">

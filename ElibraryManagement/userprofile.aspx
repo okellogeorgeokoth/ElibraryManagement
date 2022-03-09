@@ -7,7 +7,7 @@
                      <div class="col-md-5">
                      <div class="row">
                      <div class="col">
-                            <center> <img src="imgs/user.png" width="100" height="200"/><center>
+                            <center> <img src="imgs/reader.jpg"width="200" height="200"/><center>
                         </div>
                          </div>
                           <div class="row">
@@ -17,7 +17,7 @@
                          </div>
                           <div class="row">
                      <div class="col">
-                         <center> <h3><span>Account Status.<asp:Label ID="Label1" class="badge bg-info text-dark" runat="server" Text="Active"></asp:Label></span></h3></center>
+                         <center> <p><span>Account Status.<asp:Label ID="Label1" class="badge bg-info text-dark" runat="server" Text="Active"></asp:Label></span></p></center>
                         </div>
                          </div>
                            <div class="row">
@@ -145,7 +145,7 @@
                              <div class="col-md-7">
                                                                    <div class="col">
                             <center>
-                                <img src="imgs/image.jpg" width="200" height="100"/><center>
+                                <img src="imgs/books.jpg" width="400" height="200"/><center>
                                            </div>
       
                                  <div class="col">
@@ -153,7 +153,7 @@
                                    </div>
                                       
                              <div class="col">
-                         <center> <h3><span>Account Status.<asp:Label ID="Label2" class="badge bg-info text-dark" runat="server" Text="Active"></asp:Label></span></h3></center>
+                         <center> <p><span>Book Status.<asp:Label ID="Label2" class="badge bg-info text-dark" runat="server" Text="Active"></asp:Label></span></p></center>
                          </div>                     
                             <div class="col">  
                            <asp:GridView ID="GridView2"  class="table table-striped table-bordered" runat="server"></asp:GridView>

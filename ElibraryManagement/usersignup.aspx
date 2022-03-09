@@ -2,10 +2,10 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-<div class="container">
+<div class="container-sm">
                 <div class="row">
                      <div class="col">
-                            <center> <img src="imgs/user.png" width="100" height="200"/><center>
+                            <center> <img src="imgs/reader.jpg" width="200" height="200"/><center>
                         </div>
                          </div>
                         <div class="row">
