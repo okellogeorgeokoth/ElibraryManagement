@@ -18,7 +18,7 @@
                          </div>
                          
                            <div class="row">
-                               <div class="col">
+                               <div class="col-md-4">
                             <label>Member ID</label><hr>
                                 <div class="form-group">
                                      <div class="input-group">
@@ -37,8 +37,13 @@
                                <div class="col">
                           <label>Account Status</label><hr>
                             <div class="form-group">
-                                <asp:TextBox ID="TextBox7" CssClass="form-control" runat="server" placeholder="Member ID" ReadOnly="true"></asp:TextBox> <br />
-                                         </div>
+                                <div class="input-group">
+                                <asp:TextBox ID="TextBox7" CssClass="form-control" runat="server" placeholder="Status" ReadOnly="true"></asp:TextBox> <br />
+                                    <asp:Button ID="Button2" class="btn btn-success" runat="server" Text="S" />
+                                    <asp:Button ID="Button3" class="btn btn-warning" runat="server" Text="P" /> 
+                                    <asp:Button ID="Button4" class="btn btn-danger" runat="server" Text="D" /> 
+                                </div>  
+                                        </div>
                                  </div>
 
                              

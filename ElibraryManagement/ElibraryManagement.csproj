@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="aboutus.aspx" />
     <Content Include="adminauthormanagement.aspx" />
+    <Content Include="adminbookinventory.aspx" />
     <Content Include="adminbookissuing.aspx" />
     <Content Include="adminlogin.aspx" />
     <Content Include="adminmembermanagement.aspx" />
@@ -1892,7 +1893,6 @@
     <Content Include="userprofile.aspx" />
     <Content Include="usersignup.aspx" />
     <Content Include="Web.config" />
-    <Content Include="Webform1.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="aboutus.aspx.cs">
@@ -1908,6 +1908,13 @@
     </Compile>
     <Compile Include="adminauthormanagement.aspx.designer.cs">
       <DependentUpon>adminauthormanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminbookinventory.aspx.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminbookinventory.aspx.designer.cs">
+      <DependentUpon>adminbookinventory.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminbookissuing.aspx.cs">
       <DependentUpon>adminbookissuing.aspx</DependentUpon>
@@ -1979,13 +1986,6 @@
     </Compile>
     <Compile Include="usersignup.aspx.designer.cs">
       <DependentUpon>usersignup.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Webform1.aspx.cs">
-      <DependentUpon>Webform1.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Webform1.aspx.designer.cs">
-      <DependentUpon>Webform1.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
