@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="aboutus.aspx" />
     <Content Include="adminauthormanagement.aspx" />
+    <Content Include="adminbookissuing.aspx" />
     <Content Include="adminlogin.aspx" />
     <Content Include="adminpublishermanagement.aspx" />
     <Content Include="bootstrap\css\bootstrap.min.css" />
@@ -1866,6 +1867,7 @@
     <Content Include="imgs\2.jpg" />
     <Content Include="imgs\admin-login-portal-500x500.png" />
     <Content Include="imgs\backtohome.png" />
+    <Content Include="imgs\boooks.jpg" />
     <Content Include="imgs\daniele-franchi-GbAEJUJKJ88-unsplash.jpg" />
     <Content Include="imgs\download.jpg" />
     <Content Include="imgs\home.jpg" />
@@ -1904,6 +1906,13 @@
     </Compile>
     <Compile Include="adminauthormanagement.aspx.designer.cs">
       <DependentUpon>adminauthormanagement.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminbookissuing.aspx.cs">
+      <DependentUpon>adminbookissuing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adminbookissuing.aspx.designer.cs">
+      <DependentUpon>adminbookissuing.aspx</DependentUpon>
     </Compile>
     <Compile Include="adminlogin.aspx.cs">
       <DependentUpon>adminlogin.aspx</DependentUpon>
