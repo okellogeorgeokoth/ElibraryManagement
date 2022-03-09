@@ -39,14 +39,14 @@
                                 <div class="col">
                           <label>Member Name</label><hr>
                             <div class="form-group">
-                                <asp:TextBox ID="TextBox3" CssClass="form-control" runat="server" placeholder="Member Name"></asp:TextBox> <br />
+                                <asp:TextBox ID="TextBox3" CssClass="form-control" runat="server" placeholder="Member Name" ReadOnly="true"></asp:TextBox> <br />
                                          </div>
                                  </div>
                           
                              <div class="col">
                           <label>Book Name</label><hr>
                             <div class="form-group">
-                                <asp:TextBox ID="TextBox4" CssClass="form-control" runat="server" placeholder="Book Name"></asp:TextBox> <br />
+                                <asp:TextBox ID="TextBox4" CssClass="form-control" runat="server" placeholder="Book Name" ReadOnly="True"></asp:TextBox> <br />
                                   </div>
                                  </div>
                                </div>
