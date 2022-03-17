@@ -47,13 +47,13 @@
 
                     <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <asp:LinkButton Class="nav-link" ID="LinkButton1" runat="server" Text="Button">View Books</asp:LinkButton> 
+                        <asp:LinkButton Class="nav-link" ID="LinkButton11" runat="server" Text="Button" OnClick="LinkButton2_Click">View Books</asp:LinkButton>
                     </li>
                     <li class="nav-item active">
-                     <asp:LinkButton Class="nav-link" ID="LinkButton2" runat="server" Text="Button">Login</asp:LinkButton> 
+                     <asp:LinkButton Class="nav-link" ID="LinkButton2" runat="server" Text="Button" OnClick="LinkButton2_Click">Login</asp:LinkButton> 
                     </li>
                     <li class="nav-item active">
-                     <asp:LinkButton Class="nav-link" ID="LinkButton3" runat="server" Text="Button">Sign Up</asp:LinkButton> 
+                     <asp:LinkButton Class="nav-link" ID="LinkButton3" runat="server" Text="Button" OnClick="LinkButton3_Click">Sign Up</asp:LinkButton> 
                     </li>
                     <li class="nav-item active">
                      <asp:LinkButton Class="nav-link" ID="LinkButton4" runat="server" Text="Button">Logout</asp:LinkButton> 
@@ -76,15 +76,15 @@
             <div id="footer1" class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
-                        <asp:LinkButton Class="footerlinks" ID="LinkButton6" runat="server" Text="Button">Admin Login</asp:LinkButton>
+                        <asp:LinkButton Class="footerlinks" ID="LinkButton6" runat="server" Text="Button" OnClick="LinkButton6_Click">Admin Login</asp:LinkButton>
                         &nbsp;
-                         <asp:LinkButton Class="footerlinks" ID="LinkButton7" runat="server" Text="Button">Author Management</asp:LinkButton>
+                         <asp:LinkButton Class="footerlinks" ID="LinkButton7" runat="server" Text="Button" OnClick="LinkButton7_Click">Author Management</asp:LinkButton>
                         &nbsp;
-                         <asp:LinkButton Class="footerlinks" ID="LinkButton8" runat="server" Text="Button">Book Inventory</asp:LinkButton>
+                         <asp:LinkButton Class="footerlinks" ID="LinkButton8" runat="server" Text="Button" OnClick="LinkButton8_Click">Book Inventory</asp:LinkButton>
                           &nbsp;  
-                         <asp:LinkButton Class="footerlinks" ID="LinkButton9" runat="server" Text="Button">Book Issuing</asp:LinkButton>
+                         <asp:LinkButton Class="footerlinks" ID="LinkButton9" runat="server" Text="Button" OnClick="LinkButton9_Click">Book Issuing</asp:LinkButton>
                           &nbsp;   
-                         <asp:LinkButton Class="footerlinks" ID="LinkButton10" runat="server" Text="Button">Member Management</asp:LinkButton>
+                         <asp:LinkButton Class="footerlinks" ID="LinkButton10" runat="server" Text="Button" OnClick="LinkButton10_Click">Member Management</asp:LinkButton>
                     </div>
                     <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                         <p style="color:powderblue">&copy All rights Reserved <a href="#" class="footerlinks" target="blank">ELibrary</a></p>    
