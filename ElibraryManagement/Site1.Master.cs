@@ -24,7 +24,6 @@ namespace ElibraryManagement
         {
             Response.Redirect("adminbookinventory.aspx");
         }
-
         protected void LinkButton9_Click(object sender, EventArgs e)
         {
             Response.Redirect("adminbookissuing.aspx");
@@ -40,6 +39,11 @@ namespace ElibraryManagement
         protected void LinkButton2_Click(object sender, EventArgs e)
         {
             Response.Redirect("userlogin.aspx");
+        }
+
+        protected void LinkButton11_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("viewbooks.aspx");
         }
     }
 }
